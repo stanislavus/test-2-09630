@@ -33,6 +33,8 @@ function MyApp({ Component, pageProps }) {
             Router.events.off('routeChangeStart', handleRouteChangeStart);
             Router.events.off('routeChangeComplete', handleRouteChangeComplete);
         };
+
+        alert(123);
     }, []);
 
     return <Component {...pageProps} />;
