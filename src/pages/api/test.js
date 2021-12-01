@@ -1,3 +1,3 @@
-export default (req: NextApiRequest, res) => {
+export default (req, res) => {
   res.status(200).json({ name: 'TEST' })
 }
