@@ -11,8 +11,6 @@ class MyDocument extends Document {
     }
 
     render() {
-                alert(123);
-
         return (
             <Html>
                 <Head />
