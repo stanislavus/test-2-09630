@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         const handleRouteChangeStart = async () => {
 
             const response = await fetch('/api/test');
-            
+            alert();
             if (window.onNextjsRouteChangeStart) {
                 window.onNextjsRouteChangeStart();
             }
