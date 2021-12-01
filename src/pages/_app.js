@@ -16,6 +16,8 @@ function MyApp({ Component, pageProps }) {
         }
 
         const handleRouteChangeStart = () => {
+
+            fetch()
             if (window.onNextjsRouteChangeStart) {
                 window.onNextjsRouteChangeStart();
             }
